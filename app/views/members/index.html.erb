@@ -9,16 +9,16 @@
 		</div>
 	</div>
 
+	<% @members.each do |member| %>
 	<div class="row margin-top-20">
-		<% @members.each do |member| %>
 		<div class="col-sm-3">
 			<%= image_tag member.profile_image.url(:medium), class: 'img-responsive img-circle' %>
 		</div>
 		<div class="col-sm-9">
 			<h2 class="margin-top-40"><%= member.name %></h2>
 		</div>
-		<% end %>
 	</div>
+	<% end %>
 </div>
 
 <div id="add-member" class="modal fade">
