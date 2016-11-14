@@ -1,0 +1,13 @@
+<h1>Create A New Member</h1>
+
+<%= form_for @member do |f| %>
+	<div class="new-member-name">
+		<span>Member Name:</span>
+    <%= f.text_field :name %>
+  </div>
+  <div class="new-creature-description">
+    <span>Member Profile Image:</span>
+    <%= f.text_area :profile_image %>
+	</div>
+	<%= f.submit "Save Member" %>
+<% end %>

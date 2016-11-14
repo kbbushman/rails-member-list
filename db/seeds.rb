@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Member.destroy_all
+
+Member.create([
+	{
+		name: "Darth Vader",
+	},
+	{
+		name: "Boba Fett",
+	},
+	{
+		name: "Jaba the Hutt",
+	}
+])
