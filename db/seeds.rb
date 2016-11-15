@@ -8,14 +8,14 @@
 
 Member.destroy_all
 
-Member.create([
-	{
-		name: "Darth Vader",
-	},
-	{
-		name: "Boba Fett",
-	},
-	{
-		name: "Jaba the Hutt",
-	}
-])
+# Member.create([
+# 	{
+# 		name: "Darth Vader",
+# 	},
+# 	{
+# 		name: "Boba Fett",
+# 	},
+# 	{
+# 		name: "Jaba the Hutt",
+# 	}
+# ])
